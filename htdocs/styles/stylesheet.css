@@ -1,0 +1,30 @@
+﻿body {
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    border: 2px darkblue solid;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+form input {
+    margin: 10px;
+    padding: 10px;
+}
+
+form input[type="text"], form input[type="password"] {
+    height: 20px;
+    width: 350px;
+}
+
+form input[type="submit"] {
+    height: 40px;
+    width: 70px;
+}

