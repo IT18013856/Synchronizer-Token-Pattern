@@ -7,3 +7,4 @@ Implementation of synchronizer token pattern for cross-site request forgery atta
 3. Start the Apache server and MySQL in XAMPP.
 4. Open phpMyAdmin (http://localhost/phpmyadmin/server_import.php) and import csrf.sql file.
 5. Access localhost (http://localhost) to run the web application.
+6. To try out a CSRF attack to the web application, open the "attack.html" file in the same browser session.
